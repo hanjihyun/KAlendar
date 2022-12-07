@@ -58,14 +58,15 @@ class Index extends React.Component {
       <>
         <DemoNavbar />
         <main ref="main">
-        <section className="section">
-            <Container>
-              <Calendar />
-            </Container>
-          </section>
+
           <Hero />
           <Buttons />
           <Inputs />
+         <section className="section">
+              <Container>
+                <Calendar />
+              </Container>
+            </section>
           <section className="section">
             <Container>
               <CustomControls />
